@@ -9,36 +9,11 @@ html {
 }
 
 .wrapper {
-    width: 896px;
+    width: 960px;
     margin: 0 auto;
+    padding: 30px;
 }
 
-.list {
-    padding: 0px;
-    width: 896px;
-    text-align: center;
-    list-style: none;
-    padding-block-start: 20px;
-    padding-block-end: 50px;
-}
-
-.list-item {
-    display: inline-block;
-}
-
-.list-link {
-    display: block;
-    width: 150px;
-    color: #555;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: sans-serif;
-}
-
-.list-link:hover {
-    color: blue;
-}
 
 .card {
     display: inline-block;
@@ -49,10 +24,6 @@ html {
     margin-inline-end: 5%;
 }
 
-.button {
-    align-content: center;
-}
-
 .load-button {
     padding: 10px 30px;
     margin-inline-start: 380px;
@@ -61,6 +32,7 @@ html {
 }
 
 .card-subtitle {
+    text-transform: uppercase;
     font-size: 17px;
     color: #555;
 }

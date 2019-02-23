@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.list {
+    padding: 0px;
+    width: 1200px;
+    text-align: center;
+    list-style: none;
+    background-color: #333;
+}
+
+.list-item {
+    display: inline-block;
+}
+
+.list-link {
+    display: block;
+    width: 150px;
+    color: brown;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.list-link:hover {
+    color: blue;
+}
