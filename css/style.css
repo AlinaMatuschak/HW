@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    background: rgb(102, 218, 160);
+    display: inline-block;
+    flex-flow: column;
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+    vertical-align: middle;
+    background: rgb(12, 90, 64);
+    tab-size: 40px;
+}
+
+
+
+.list-link {
+    display: inline-block;
+    padding: 10px 20px;
+}

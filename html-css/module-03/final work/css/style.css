@@ -18,8 +18,7 @@ html {
     width: 896px;
     text-align: center;
     list-style: none;
-    padding-block-start: 20px;
-    padding-block-end: 50px;
+    padding: 20px 0px 50px;
 }
 
 .list-item {
@@ -46,17 +45,17 @@ html {
 }
 
 .card-mr {
-    margin-inline-end: 5%;
+    margin: 0% 5% 0% 0%;
 }
 
 .button {
-    align-content: center;
+    width: 896px;
+    text-align: center;
 }
 
 .load-button {
+    margin: 40px 0px 0px;
     padding: 10px 30px;
-    margin-inline-start: 380px;
-    margin-block-start: 30px;
     color: #555;
 }
 
