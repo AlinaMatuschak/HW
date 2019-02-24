@@ -21,14 +21,7 @@ html {
 }
 
 .card-mr {
-    margin-inline-end: 5%;
-}
-
-.load-button {
-    padding: 10px 30px;
-    margin-inline-start: 380px;
-    margin-block-start: 30px;
-    color: #555;
+    margin: 0% 5% 0% 0%;
 }
 
 .card-subtitle {
