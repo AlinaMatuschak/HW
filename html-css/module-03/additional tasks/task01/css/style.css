@@ -9,8 +9,8 @@ html {
 }
 
 .list {
-    padding: 0px;
-    width: 1200px;
+    padding: 0px 25px;
+    min-width: 1150px;
     text-align: center;
     list-style: none;
     background-color: #333;
