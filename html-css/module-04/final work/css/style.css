@@ -60,6 +60,11 @@ main {
     text-transform: uppercase;
 }
 
+.img {
+    padding: 0px;
+    margin: 0px;
+}
+
 .title {
     text-align: center;
     font-size: 40px;
@@ -104,11 +109,13 @@ main {
     width: 255px;
     height: 40px;
     background: #323232;
+    margin: -4px;
+    margin-left: 0px;
 }
 .content-inf-txt {
     float: left;
     margin: 0px;
-    padding: 10px 50px 10px 0px;
+    padding: 10px;
     color: #ffffff;
     background: #323232;
 }
@@ -117,7 +124,7 @@ main {
     float: right;
     width: 55px;
     height: 40px;
-    padding: 10px 15px;
+    padding: 10px;
     background: #8c8c8c;
     margin: 0px;
     color: #ffffff;
